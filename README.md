@@ -10,6 +10,8 @@ This repo contains code to reproduce a performance issue with dark reader when a
 docker compose up -d --build
 ```
 
+Then visit `http://localhost:8080`
+
 ## Current benchmarks
 
 Firefox: (Disable Cache: checked)
