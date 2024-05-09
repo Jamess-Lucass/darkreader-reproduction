@@ -2,6 +2,8 @@
 
 This repo contains code to reproduce a performance issue with dark reader when a lot of CSS, specifically tailwindcss < 3, due to version 1 & 2 importing all tailwind classes whereas version 3 introduced their JIT compiler to slim the build down.
 
+For issue: https://github.com/darkreader/darkreader/issues/12554
+
 ## How to run?
 
 > I did all my testing with the vite app running inside a container, just for more consistency,
